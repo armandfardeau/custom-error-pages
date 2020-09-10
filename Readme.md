@@ -10,5 +10,8 @@ In `/etc/nginx/site-availables/my-site.conf`, block server:
 include custom-error-pages/error_pages.conf;
 ```
 
+## Copy files to app
+cp /etc/nginx/custom-error-pages/error_pages/* ~/<app>/public
+
 
 
